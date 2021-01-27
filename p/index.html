@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Sayang Susan</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+   
+    <body>
+        <div class="container">
+          <h1>Nama lengkap aku?</h1>
+            <form>
+                <label>Jawab</label><br>
+                <input type="text" name="userid"><br>
+                <br><a href="project/index.html"><input type="button" value="Jawab" onclick="return check(this.form)" style="font size="5"></a>
+            </form>
+        </div>
+        <script language="javascript">
+function check(form)
+{
+
+if(form.userid.value == "raghib galieh basmallah")
+{
+  return true;
+}
+else
+{
+  alert("dih najis kaga tau, eww. btw kecil semua")
+  return false;
+}
+}
+</script>
+    </body>
+</html>
